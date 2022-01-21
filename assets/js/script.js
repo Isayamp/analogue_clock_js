@@ -19,4 +19,7 @@ function rotateClockHands() {
     hourHand.style.transform = `rotate(${hourRotation}deg)`;
     minuteHand.style.transform = `rotate(${minuteRotation}deg)`;
     secondHand.style.transform = `rotate(${secondRotation}deg)`;
+
+    // Met à jour les aiguilles toutes les secondes
+    setInterval(rotateClockHands, 1000);
 }

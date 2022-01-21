@@ -5,3 +5,9 @@
     border-radius: 50%;
     position: relative;
   }
+
+  .hand {
+    background-color: #000;
+    position: absolute;
+    transform-origin: bottom center;
+  }
